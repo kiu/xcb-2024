@@ -1,0 +1,58 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "5mm",
+        "cols": "4",
+        "baketext": "False"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "50mm",
+        "hwidth": "1mm",
+        "hcount": "0"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "User.1"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "2.5mm",
+        "maxtotalheight": "25cm",
+        "fillet": "2mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "10mm",
+        "voffset": "2.5mm",
+        "size": "1.152mm",
+        "soldermaskmargin": "0.148mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "20mm",
+        "voffset": "3.85mm",
+        "coppersize": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2.5mm",
+        "text": "xcb-2024-top-revb-panel-4x1"
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "-2.5mm",
+        "text": "JLCJLCJLCJLC",
+        "anchor": "mb"
+    },
+    "page": {
+        "type": "A4",
+        "anchor": "tl",
+        "posx": "20mm"
+    },
+    "post": {
+        "millradius": "1mm",
+        "reconstructarcs": "True",
+        "dimensions": "True"
+    }
+}

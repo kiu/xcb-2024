@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2, H3, H4, H5, H6, H7, H8",MountingHole_3.2mm_M3_DIN965,8,MountingHole,
+J1,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06,
+"J2, J4",PinHeader_2x03_P2.54mm_Vertical,2,Conn_02x03_Odd_Even,
+J3,IDC-Header_2x10_P2.54mm_Vertical,1,Conn_02x10_Odd_Even,
+J5,TerminalBlock_bornier-2_P5.08mm,1,Screw_Terminal_01x02,

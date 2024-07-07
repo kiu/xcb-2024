@@ -1,0 +1,39 @@
+XCB-2024-top
+
+--- REV A
+Initial prototype
+
+--- REV B
+- Silkscreen: REV A -> REV B
+- Silkscreen: Removed "JLCJLCJLCJLC" marker (panel has marking)
+- Silkscreen: SIO -> SWDIO
+- Silkscreen: CLK -> SWDCLK
+- Silkscreen: RES -> nRST
+- Silkscreen: Removed "kiu" marking
+- Silkscreen: Switch RX+TX
+- Silkscreen: Added 38400
+- Reduced size of RX+TX testpoints
+- Removed mounting cutout for clip (xcb-2024-bottom has cutout)
+- Removed Testpoints VCC + GND (available via 6P connector)
+- Removed LCD_READ (not used)
+- Reduced LCD_DATA from PA6 + PA7 to PA7 only
+- Removed Solder Bridges for touch ICs (permanently tied LHO to VCC, OHO to GND)
+- Removed Solder Bridge for Boot0 (permanently tied to GND via 4k7)
+- Added 3V3 LDO (for USB power)
+- Updated Buzzer footprint (pad spacing)
+- Replaced flimsy switch with C160878
+- Move LCD_WRITE 11/PA5->12/PA6 (Buzzer needs timer on 10/PA4)
+- Move LCD_CS 10/PA4->11/PA5 (Buzzer needs timer on 10/PA4)
+- Move BUZZ 3/PF1->10/PA4 (Buzzer needs timer on 10/PA4)
+- Move SENSOR_VCC 2/PF0->7/PA1 (Better ground access)
+- Move MODE_CONF 26/PB3->22/PA12 (IR TX needs timer on 28/PB5)
+- Move BTN_TL 27/PB4->26/PB3 (IR TX needs timer on 28/PB5)
+- Move BTN_BL 28/PB5->27/PB4 (IR TX needs timer on 28/PB5)
+- Move IR_TX 23/PA13->28/PB5 (IR TX needs timer on 28/PB5)
+- Updated Logo footprint (cleaner)
+- Added TX to 6p connector
+- Moved IR TX resistor to top
+- Reduced VLCD resistor from 4k7 to 330
+- Set Buzzer resistor to 2x330-->165
+- Set IR TX resistor to 330
+
