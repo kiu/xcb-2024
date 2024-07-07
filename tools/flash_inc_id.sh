@@ -1,8 +1,9 @@
 #!/bin/bash
 
-#HEX="C:\Users\kiu\Documents\projects\hardware\done\xcb-2024\unreleased\XCB-2024-reva\Debug\XCB-2024-reva.hex"
 #HEX="C:\Users\kiu\Documents\projects\hardware\done\xcb-2024\firmware\XCB-2024-revb\Debug\XCB-2024-revb.hex"
-HEX="C:\Users\kiu\Documents\projects\hardware\done\xcb-2024\firmware\XCB-2024-revb\Release\XCB-2024-revb.hex"
+#HEX="C:\Users\kiu\Documents\projects\hardware\done\xcb-2024\firmware\XCB-2024-revb\Release\XCB-2024-revb.hex"
+
+HEX="C:\Users\kiu\Documents\projects\hardware\done\xcb-2024\tools\xcb-2024-revb-F01.hex"
 
 ID=01
 
